@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.header-info {
+  text-align: left;
+  padding: 10px 20px;
+  background-color: hsl(0, 0%, 92%);
+  width: 100%;
+}
+
+.header-info h1 {
+  margin-bottom: 5px;
+}
+
+.profile-picture {
+  display: flex;
+  position: relative;
+  left: 30%;
+  margin-top: 10px;
+}
+
+.profile-picture img {
+  border-radius: 5px;
+}
+
+.box {
+  margin-top: 10px;
+  border: 1px solid hsl(0, 0%, 73%);
+  border-radius: 5px;
+}
+
+.contact-info {
+  display: inline-block;
+  position: relative;
+  left: 30%;
+  padding: 20px;
+}
+
+.contact-info h2 {
+  margin-bottom: 10px;
+}
+
+.about-info {
+  width: 600px;
+  position: relative;
+  left: 31%;
+  padding: 20px 60px 20px 20px;
+}
+
+.about-info h2 {
+  margin-bottom: 10px;
+}
+
+.skills-info {
+  width: 600px;
+  position: relative;
+  left: 31%;
+  padding: 20px 60px 20px 20px;
+}
+
+.skills-info h2 {
+  margin-bottom: 10px;
+}
+
+.skills-info ul {
+  margin-left: 40px;
+}
+
+.links-info {
+  width: 600px;
+  position: relative;
+  left: 31%;
+  padding: 20px 60px 20px 20px;
+}
+
+.links-info h2 {
+  margin-bottom: 10px;
+}
+
+.links-info ul {
+  margin-left: 40px;
+}
+
+.links-info a {
+  text-decoration: none;
+  color: hsl(0, 0%, 0%);
+}
+
+.footer-info {
+  text-align: center;
+  padding: 10px;
+  background-color: hsl(0, 0%, 100%);
+  width: 100%;
+  position: relative;
+  top: 20px;
+  border-top: 1px solid hsl(0, 0%, 73%);
+}
